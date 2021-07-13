@@ -1,0 +1,86 @@
+/* Slideshow */
+.index-header {
+    height: 92%;
+    width: 100%;
+    border: thick solid rgba(255, 0, 0, 0);
+    margin: 0;
+    padding: 0%;
+}
+
+#slideshow {
+    height: 80%;
+    border-radius: 20px;
+    margin: 2rem;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pointers {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding: 25px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+}
+
+.next {
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#slideshow .text {
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    text-align: center;
+    height: 10%;
+    padding: 9px 0;
+}
+
+.dot-container {
+    text-align: center;
+    height: auto;
+    padding: 0;
+    height: 5%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #616161;
+}
+
+@media screen and (orientation: portrait) {
+    #slideshow .text{
+        font-size: 1.7rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

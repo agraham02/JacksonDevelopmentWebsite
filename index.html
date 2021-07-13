@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Development | Home</title>
+    <link rel="stylesheet" href="./res/styles/style.css">
+    <link rel="stylesheet" href="./res/styles/index.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+            <img src="./res/images/Logo.jpg" alt="Jackson Developmet Logo" style="width: 120px; height: 48px;">
+        </a>
+        <div class="nav-container">                
+            <a href="./projects.html">Projects</li>
+            <a href="./about.html">About Us</a>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <header class="index-header">        
+        <div id="slideshow"> <!--pics-->
+            <!-- Next and previous buttons -->
+            <div class="pointers">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <div id="text" class="text">Uno dos tres</div>
+
+            <!-- The dots/circles -->
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>                     
+        </div>
+        <h1>Jackson Development Company, LLC</h1>
+    </header>
+
+    <footer>
+
+    </footer>
+    <script src="./res/scripts/slideshow.js"></script>
+</body>
+</html>

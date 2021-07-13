@@ -1,0 +1,37 @@
+.projects {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.col {
+    display: inline-flex;
+    flex-direction: column;
+    margin: .5em;
+}
+
+.item {
+    text-align: center;
+    margin: 1em;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: .5em;
+}
+
+p {
+    padding: .2em;
+}
+
+@media screen and (orientation: portrait) {
+    .projects {
+        display: block;
+    }
+}

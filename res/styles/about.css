@@ -1,0 +1,78 @@
+h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.about-text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-text .list-parent {
+    text-align: center;
+}
+
+.about-text .list-parent ul {
+    display: inline-block; 
+	text-align: left;
+    width: 40%;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+.employee-container {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    margin: 1.5em auto;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: .5em 1.5em;
+}
+
+.text {
+    width: 80%;
+}
+
+@media screen and (orientation: portrait) {
+    .employee-container {
+        display: block;
+    }
+
+    main img {
+        margin: 1.5em auto;
+        display: block;
+    }
+    
+    .text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-text .list-parent ul {
+        width: 70%;
+    }
+
+    .employee-container .list-parent {
+        text-align: center;
+    }
+
+    .employee-container .list-parent ul {
+        display: inline-block; 
+	    text-align: left;
+        width: 40%;
+    }
+}

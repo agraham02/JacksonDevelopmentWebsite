@@ -1,5 +1,6 @@
 h2 {
     text-align: center;
+    font-size: 2.5em;
 }
 
 p {
@@ -10,6 +11,10 @@ p {
     width: 90%;
     margin: auto;
     text-align: center;
+}
+
+.about-text p {
+    text-align: left;
 }
 
 .about-text .list-parent {
@@ -26,6 +31,9 @@ hr {
     width: 90%;
     margin: auto;
 }
+.staff {
+    margin-top: 40px;
+}
 
 .employee-container {
     display: flex;
@@ -34,6 +42,10 @@ hr {
     margin: 1.5em auto;
     justify-content: space-between;
     padding: 1em 0;
+}
+
+#person1 {
+    margin-top: .5em;
 }
 
 main img {

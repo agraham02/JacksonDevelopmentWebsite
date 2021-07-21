@@ -25,6 +25,8 @@ nav {
 nav img {
     margin: 10px;
     border-radius: 10px;
+    width: 150px;
+    height: 60px;
 }
 .nav-container {
     display: flex;

@@ -30,7 +30,7 @@ p {
     padding: .2em;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 900px) {
     .projects {
         display: block;
     }

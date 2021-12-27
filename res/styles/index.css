@@ -1,15 +1,14 @@
 /* Slideshow */
 .index-header {
-    height: 92%;
+    height: 75%;
     width: 100%;
-    border: thick solid rgba(255, 0, 0, 0);
     margin: 0;
     padding: 0%;
 }
 
 #slideshow {
-    height: 80%;
-    border-radius: 20px;
+    height: 95%;
+    border-radius: 10px;
     margin: 2rem;
 
     background-size: cover;
@@ -75,12 +74,121 @@
     background-color: #616161;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.about-us {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.list-parent {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.list-parent ul {
+    display: inline-block; 
+	text-align: left;
+    width: 40%;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+.staff {
+    margin-top: 60px;
+}
+
+.employee-container {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    margin: 1.5em auto;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+#person1 {
+    margin-top: .5em;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: .5em 1.5em;
+}
+
+.staff .text {
+    width: 80%;
+    margin: 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .employee-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .employee-container img {
+        margin: 15px auto;
+    }
+} 
+
 @media screen and (orientation: portrait) {
     #slideshow .text{
-        font-size: 1.7rem;
+        font-size: 2rem;
+        position: relative;
+        bottom: 20px;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    main img {
+        margin: 1.5em auto;
+        display: block;
+    }
+    
+    .text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-text .list-parent ul {
+        width: 80%;
+    }
+
+    .employee-container .list-parent {
+        text-align: center;
+    }
+
+    .employee-container .list-parent ul {
+        display: inline-block; 
+	    text-align: left;
+        width: 80%;
     }
 }

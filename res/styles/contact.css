@@ -10,15 +10,10 @@ header img {
     padding: 2em 4em;
     justify-content: space-between;
     align-items: center;
-}
-
-.col {
-    padding: 0 2em;
-    flex-grow: 1;
+    flex-direction: column;
     text-align: center;
-    margin: 1em;
 }
 
-.col a, p, input {
-    margin-bottom: 1rem;
+.container > p {
+    margin: 0px 0 20px;
 }

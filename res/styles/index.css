@@ -1,15 +1,13 @@
 /* Slideshow */
 .index-header {
-    height: 75%;
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0%;
 }
 
 #slideshow {
-    height: 95%;
-    border-radius: 10px;
-    margin: 2rem;
+    height: 100%;
 
     background-size: cover;
     background-position: center;

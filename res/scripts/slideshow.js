@@ -1,10 +1,11 @@
 const banner = document.getElementById("slideshow");
+const menu = document.getElementById("menu");
 let slideIndex = 0;
 
 const slides = [
+    {image: "url('./res/images/Buildings/Building3_new.jpg')", text: "2021 - Magens Junction Phase 2"},
     {image: "url('./res/images/Buildings/Building1.jpg')", text: "2015 - Anna's Hope"}, 
-    {image: "url('./res/images/Buildings/Building2.jpg')", text: "2017 - Magens Junction Phase 1"}, 
-    {image: "url('./res/images/Buildings/Building3.jpg')", text: "2021 - Magens Junction Phase 2"} 
+    {image: "url('./res/images/Buildings/Building2.jpg')", text: "2017 - Magens Junction Phase 1"}     
 ]
 
 function plusSlides(n) {
@@ -34,3 +35,9 @@ function showSlides() {
 
 showSlides();
 setInterval(() => plusSlides(1), 5000);
+
+function animBar(x) {
+    x.classList.toggle("change");
+
+    x.classList.contains("change") ? menu.style.top = "0" : menu.style.top = "-338.5px";
+}

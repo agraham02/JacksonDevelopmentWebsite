@@ -1,19 +1,23 @@
-.projects {
+section {
     display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
-.col {
-    display: inline-flex;
-    flex-direction: column;
-    margin: .5em;
+section > * {
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px grey;
 }
 
 .item {
     text-align: center;
-    margin: 1em;
+    margin: 20px 10px;
+    height: fit-content;
 }
 
 .item img {
@@ -22,8 +26,8 @@
     border-radius: 5px;
 }
 
-h2 {
-    margin: .5em;
+.item p, .item h3 {
+    margin: 8px;
 }
 
 p {
@@ -31,7 +35,11 @@ p {
 }
 
 @media screen and (max-width: 900px) {
-    .projects {
+    main {
         display: block;
+    }
+
+    section > * {
+        width: 90%;
     }
 }

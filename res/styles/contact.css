@@ -1,19 +1,11 @@
-header img {
-    width: 80%;
-    display: block;
-    margin: auto;
-}
-
-.container {
+main {
     display: flex;
-    flex-wrap: wrap;
-    padding: 2em 4em;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
 
-.container > p {
-    margin: 0px 0 20px;
+main > p {
+    margin: 0px 0 30px;
 }

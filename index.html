@@ -11,28 +11,36 @@
 <body>
     <nav id="Top">
         <div class="img-container"><a href="./index.html"><img src="./res/images/Logo.jpg" alt="Jackson Development Logo"></a></div>
-        <div class="nav-container">       
+        <div class="bar-container" onclick="animBar(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>  
+        <div class="nav-container" id="menu">               
             <a href="./about.html">About Us</a>         
             <a href="./projects.html">Projects</a>
             <a href="./contact.html">Contact Us</a>
         </div>
     </nav>
     <header class="index-header">        
-        <div id="slideshow"> <!--pics-->
-            <!-- Next and previous buttons -->
-            <div class="pointers">
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div id="slideshow">
+            <div class="header-filter">
+                
+            </div>
+            <div class="title">
+                <h1><div class="big">JACKSON</div> <div class="small">DEVELOPMENT COMPANY</div></h1>
             </div>
             
-            <div id="text" class="text">Uno dos tres</div>
-
-            <!-- The dots/circles -->
-            <div class="dot-container">
-                <span class="dot" onclick="currentSlide(0)"></span>
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-            </div>                     
+            <div class="bottom">                
+                <div id="text" class="text">Uno dos tres</div>
+    
+                <!-- The dots/circles -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(0)"></span>
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+            </div>            
         </div>
     </header>
     <script src="./res/scripts/slideshow.js"></script>

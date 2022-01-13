@@ -1,0 +1,131 @@
+p {
+    text-indent: 1em;
+}
+
+.about-us {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    border: solid red;
+}
+
+aside {
+    border-top: solid rgb(126, 126, 126);
+    border-bottom: solid rgb(126, 126, 126);
+    padding: 15px 0;
+    margin: 10px auto;
+    width: 60%;
+    color: rgb(126, 126, 126);
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+.staff {
+    margin-top: 60px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.employee-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 30px auto;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px grey;
+}
+
+.more {
+    display: none;
+}
+
+.more-btn {
+    cursor: pointer;
+    color: gray;
+    float: right;
+    margin: 10px;
+}
+
+.more-btn:hover {
+    color: rgb(83, 83, 83);
+}
+
+#person1 {
+    margin-top: .5em;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: .5em 1.5em;
+}
+
+.staff .text {
+    width: 80%;
+    margin: 15px 30px;
+    padding: 0 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .employee-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .employee-container img {
+        margin: 15px auto;
+    }
+
+    p {
+        text-indent: 0;
+    }
+
+    .staff .text {
+        padding: 0;
+    }
+
+    aside {
+        width: 80%;
+    }
+} 
+
+@media screen and (orientation: portrait) {
+    main img {
+        margin: 1.5em auto;
+        display: block;
+    }
+    
+    .text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-text .list-parent ul {
+        width: 80%;
+    }
+
+    .employee-container .list-parent {
+        text-align: center;
+    }
+
+    .employee-container .list-parent ul {
+        display: inline-block; 
+	    text-align: left;
+        width: 80%;
+    }
+}

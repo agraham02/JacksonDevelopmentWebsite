@@ -8,20 +8,24 @@ p {
 }
 
 .about-text {
-    width: 90%;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
 
-.section {
-    border: solid red;
+section.title-head {
+    margin-top: 10px;
+}
+
+section {
+    margin: 120px 0;
 }
 
 aside {
     border-top: solid rgb(126, 126, 126);
     border-bottom: solid rgb(126, 126, 126);
-    padding: 15px 0;
-    margin: 10px auto;
+    padding: 10px 0;
+    margin: 20px auto;
     width: 60%;
     color: rgb(126, 126, 126);
 }
@@ -29,9 +33,6 @@ aside {
 hr {
     width: 90%;
     margin: auto;
-}
-.staff {
-    margin-top: 60px;
 }
 
 h2 {
@@ -101,6 +102,14 @@ main img {
 
     aside {
         width: 80%;
+    }
+
+    .about-text {
+        width: 90%;
+    }
+
+    section {
+        margin: 80px 0;
     }
 } 
 

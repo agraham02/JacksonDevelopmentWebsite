@@ -17,8 +17,17 @@ section.title-head {
     margin-top: 10px;
 }
 
+section.title-head{
+    /* font-style: italic; */
+    font-size: 1.4em;
+}
+
+section.title-head aside, aside {
+    font-size: .85rem;
+}
+
 section {
-    margin: 120px 0;
+    margin: 50px 0;
 }
 
 aside {
